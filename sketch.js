@@ -58,7 +58,7 @@ function Block(x, y) {
 function setup() {
   createCanvas(displayWidth, displayHeight);
   rectMode(CENTER);
-  block = new Block(displayWidth/2,displayHeight/2);
+  // block = new Block(displayWidth/2,displayHeight/2);
 }
 function draw() {
   background(bg);
@@ -69,7 +69,7 @@ function draw() {
     noFill();
   }
   rect(width/2, height/2, 100, 100);
-  block.display();
+  // block.display();
 }
 function touchStarted() {
   fillEllipse = !fillEllipse;
