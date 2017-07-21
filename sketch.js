@@ -5,7 +5,7 @@ function Block(x, y) {
   this.y = y;
   this.width = 36;
   this.corner = 6;
-  this.col = color(255);
+  this.col = color(155);
   this.isLabeled = false;
 
   this.changeColor = function() {
@@ -58,7 +58,7 @@ function Block(x, y) {
 function setup() {
   createCanvas(displayWidth, displayHeight);
   rectMode(CENTER);
-  block = new Block(display/2,displayHeight/2);
+  block = new Block(displayWidth/2,displayHeight/2);
 }
 function draw() {
   background(bg);
